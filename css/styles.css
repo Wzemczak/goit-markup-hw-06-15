@@ -545,12 +545,14 @@ nav {
   margin-bottom: 4px;
 }
 .textarea {
-  color: var(--grey-modal);
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.48px;
   margin-bottom: 8px;
   padding: 8px 16px;
+}
+.textarea::placeholder {
+  color: var(--grey-modal);
 }
 .check-wrapper {
   margin-bottom: 24px;
